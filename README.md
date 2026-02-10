@@ -1,16 +1,21 @@
-# laggytodolist
+# Flutter Learning Journey
 
-A new Flutter project.
+## 1. Stateless vs. Stateful Widgets
+In Flutter, widgets are classified based on whether their configuration can change:
+* **StatelessWidget:** These are immutable. Once they are built, their properties cannot change (e.g., an Icon, a Label, or a static logo). They are used for UI parts that just depend on configuration info.
+* **StatefulWidget:** These maintain a mutable state that can change during the widget's lifetime. When the state changes (like a counter incrementing), the widget rebuilds to reflect the new data.
 
-## Getting Started
+## 2. The Widget Tree & Reactive UI
+Flutter builds UIs using a **Widget Tree**, which is a hierarchy of widget objects.
+* **Composition:** Everything is a widget (padding, alignment, layout). We compose simple widgets to build complex layouts.
+* **Reactivity:** When `setState()` is called, Flutter marks the widget as "dirty." It then efficiently checks the widget tree to see what has changed and only re-renders the necessary parts. This makes UI updates incredibly fast (60fps).
 
-This project is a starting point for a Flutter application.
+## 3. Why Dart?
+Dart is the secret sauce behind Flutter's performance:
+* **JIT (Just In Time) Compilation:** Allows for "Hot Reload" during development, letting you see code changes instantly without losing app state.
+* **AOT (Ahead Of Time) Compilation:** Compiles to native ARM machine code for production, ensuring fast startup times and smooth performance.
+* **Sound Null Safety:** Reduces runtime crashes by making null errors a thing of the past.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 4. Project Demo
+* **Project:** Counter App
+* **Functionality:** A button press updates the on-screen counter instantly using Flutter's reactive state management.
