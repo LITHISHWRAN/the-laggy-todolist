@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "307944058057",
+    "project_id": "laggytodolist",
+    "storage_bucket": "laggytodolist.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:307944058057:android:5cc9805b5c9af3b188f118",
+        "android_client_info": {
+          "package_name": "com.example.laggytodolist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "307944058057-n4fjfu9qlj4bbfnbnfo311uu8aeksvgq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCO6rzBTW_USYJ5wstiU-mcFoot5QB8kcE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "307944058057-n4fjfu9qlj4bbfnbnfo311uu8aeksvgq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:307944058057:android:34a61d0be856e79a88f118",
+        "android_client_info": {
+          "package_name": "laggyTodoList.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "307944058057-n4fjfu9qlj4bbfnbnfo311uu8aeksvgq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCO6rzBTW_USYJ5wstiU-mcFoot5QB8kcE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "307944058057-n4fjfu9qlj4bbfnbnfo311uu8aeksvgq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
